@@ -1,0 +1,100 @@
+*{
+    font-family: 'Rubik Mono One', monospace;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 50px;
+    text-decoration: none;
+    color: rgb(255, 245, 245);
+    font-size: 25px;
+    font-weight: bolder;
+    align-items: center;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 30px;
+}
+nav ul a:hover{
+    background-color: white;
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    border: 0;
+}
+.ban{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    background-color: black;
+}
+.home img{
+    margin-top: 1070px;
+}
+.home p{
+    color: azure;
+    position: relative;
+    top: -700px;
+    left: 750px;
+    width: 50%;
+    text-align: justify;
+}
+.home h1{
+    color: azure;
+    position: relative;
+    top:-750px;
+    left: 750px;
+    width: 50%;
+    text-align: justify;
+    font-size: xx-large;
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    top:100px;
+    background-color: black;
+}
+.box{
+    width: 300px;
+    height: 900px;
+    border: 3px ridge black;
+    margin: 20px;
+    background: linear-gradient(to bottom, rgb(0, 0, 0)50%, rgb(255, 255, 255)50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 3px 5px 6px 2px rgb(94, 94,215);
+}
+.box img{
+    width: 100%;
+
+}
+.box h4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 300px;
+}
